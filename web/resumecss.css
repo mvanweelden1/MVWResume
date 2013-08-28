@@ -1,7 +1,7 @@
 /* 
     Document   : resumecss
     Created on : Aug 27, 2013, 6:04:29 PM
-    Author     : Owner
+    Author     : Mark Van Weelden
     Description:
         Purpose of the stylesheet follows.
 */
@@ -9,4 +9,61 @@
 root { 
     display: block;
 }
+body {
+    background-color:#96A8C8;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 10px;
+}
+#pagewrapper  {
+    margin: 0px auto;
+    width:1000px;
+}
+#container {
+    padding: 10px;
+    width:796px;
+    height:1030px;
+    margin: 10px auto;
 
+}
+#header {
+    padding: 10px;
+    width:796px;
+    height:140px;
+    margin: 0px auto;
+}
+.box {
+    background:white;
+    border-style:solid;
+    border-width:2px;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+}
+#pic {
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    position:relative;
+    left: 50px;
+    top:13px;
+}
+#name {
+    position: relative;
+    left: 280px;
+    top: -120px;
+}
+#phone {
+    position: relative;
+    left: 280px;
+    top: -130px;
+}
+#email {
+    position: relative;
+    left: 280px;
+    top: -140px;
+}
+.bold {
+    font-weight:bold
+}
+h3 {
+    text-shadow:2px 2px #96A8C8;
+}
